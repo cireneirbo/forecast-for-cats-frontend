@@ -35,7 +35,7 @@ function SunriseSunset() {
 
   if(data == "") {
     return (
-      <div className="box-shadow">
+      <div className="SunriseSunset1">
         <p>Awaiting Sunrise and Sunset API data...</p>
       </div>
     );
