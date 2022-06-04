@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/forecast-for-cats-frontend/static/css/main.073c9b0a.css",
-    "main.js": "/forecast-for-cats-frontend/static/js/main.836c7f7c.js",
-    "static/js/787.78a48cd1.chunk.js": "/forecast-for-cats-frontend/static/js/787.78a48cd1.chunk.js",
-    "static/media/logo.svg": "/forecast-for-cats-frontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/forecast-for-cats-frontend/static/css/main.40da540a.css",
+    "main.js": "/forecast-for-cats-frontend/static/js/main.577c7a37.js",
+    "static/media/pixelCatalpha2.png": "/forecast-for-cats-frontend/static/media/pixelCatalpha2.efc257fde534600d5b36.png",
     "index.html": "/forecast-for-cats-frontend/index.html",
-    "main.073c9b0a.css.map": "/forecast-for-cats-frontend/static/css/main.073c9b0a.css.map",
-    "main.836c7f7c.js.map": "/forecast-for-cats-frontend/static/js/main.836c7f7c.js.map",
-    "787.78a48cd1.chunk.js.map": "/forecast-for-cats-frontend/static/js/787.78a48cd1.chunk.js.map"
+    "main.40da540a.css.map": "/forecast-for-cats-frontend/static/css/main.40da540a.css.map",
+    "main.577c7a37.js.map": "/forecast-for-cats-frontend/static/js/main.577c7a37.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.836c7f7c.js"
+    "static/css/main.40da540a.css",
+    "static/js/main.577c7a37.js"
   ]
 }
