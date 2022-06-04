@@ -1,38 +1,285 @@
-.App {
+h3 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  padding: 0%;
+  margin: 1%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+th, td {
+  margin: 0%;
+  padding: 1%;
+  text-align: left;
+}
+
+tbody {
+  padding: 0%;
+  margin: 1%;
+  border: 1px solid black;
+  width: auto;
+  box-shadow: 5px 5px 15px black;
+}
+
+.App {
+  min-width: 300px;
+}
+
+/* For uniform tables only*/
+@media screen and (max-width: 400px){
+  table {
+    width: 300px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 401px) and (max-width: 500px){
+  table {
+    width: 350px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px){
+  table {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  table {
+    width: 500px;
+  }
+}
+
+/* Smaller screens */
+@media screen and (max-width: 600px) {
+
+  #pixelCat {
+    max-width: 600px;
+    opacity: 88%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .box-shadow {
+    padding: 0%;
+    margin: 1%;
+    border: 1px solid black;
+    width: auto;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  .SunriseSunset1 {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .SunriseSunset2 {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .Weather {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .dev-plug {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .CatTalk {
+    max-width: 450px;
+    min-width: 150px;
+    word-wrap: break-word;
+    font-size: 36px;
+    text-align: center;
+    padding: 0%;
+    margin: 1%;
+    border: 1px solid black;
+  }
+}
+
+/* Medium - Smaller screens */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+
+  #pixelCat {
+    max-width: 600px;
+    opacity: 88%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .box-shadow {
+    padding: 0%;
+    margin: 1%;
+    border: 1px solid black;
+    width: auto;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  .SunriseSunset1 {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .SunriseSunset2 {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .Weather {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .dev-plug {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .CatTalk {
+    max-width: 450px;
+    min-width: 150px;
+    word-wrap: break-word;
+    font-size: 36px;
+    text-align: center;
+    padding: 0%;
+    margin: 1%;
+    border: 1px solid black;
+  }
+}
+
+/* Medium-large screens */
+@media screen and (min-width: 801px) and (max-width: 1023px) {
+  
+  #pixelCat {
+    max-width: 600px;
+    opacity: 88%;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .box-shadow {
+    padding: 0%;
+    margin: 1%;
+    border: 1px solid black;
+    width: auto;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  .SunriseSunset1 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .SunriseSunset2 {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .Weather {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .dev-plug {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .CatTalk { 
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    max-width: 250px;
+    min-width: 25px;
+    word-wrap: break-word;
+    font-size: 36px;
+    padding: 1%;
+    margin: 1%;
+    border: 1px solid black;
+  }
+}
+
+/* Larger screens */
+@media screen and (min-width: 1024px) {
+
+  #pixelCat {
+    max-width: 600px;
+    opacity: 88%;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .box-shadow {
+    padding: 0%;
+    margin: 1%;
+    border: 1px solid black;
+    width: auto;
+    box-shadow: 5px 5px 15px black;
+  }
+
+  .SunriseSunset1 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .SunriseSunset2 {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .Weather {
+    position: absolute;
+    top: 40%;
+    right: 0%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .dev-plug {
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .CatTalk {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    max-width: 400px;
+    min-width: 150px;
+    word-wrap: break-word;
+    font-size: 36px;
+    padding: 2%;
+    margin: 2%;
+    border: 1px solid black;
   }
 }

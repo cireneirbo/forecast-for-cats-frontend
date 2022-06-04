@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import SunriseSunset from './components/SunriseSunset';
+import Weather from './components/Weather';
+import pixelCat from './images/pixelCatalpha2.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="CatDialogue">
+        <SunriseSunset />
+        <Weather />
+        <img id="pixelCat" src={pixelCat} />
+        <p className="dev-plug">Look at what else my <a href="https://linktr.ee/codeethicallywitheric" target="_blank">owner</a> does!</p>
+      </div>
     </div>
   );
 }
