@@ -2,11 +2,10 @@
 A weather service so easy to use, your cat could check it for you!\
 Displays key information about current weather conditions for Bradenton, FL.
 
-
 ## Getting Started
 
 * Fork or Clone repository.
-* Install dependencies with npm install.
+* Install dependencies with `npm install`.
 * Run with `npm start`.
 * Navigate to `http://localhost:3000/`.
 
