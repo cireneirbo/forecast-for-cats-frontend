@@ -7,7 +7,7 @@ function Weather() {
 
   const [ data, setData ] = useState("");
 
-  const backendURL = `http://localhost:9000/weather`;
+  const backendURL = `https://forecast-for-cats-backend.herokuapp.com/weather`;
 
   useEffect(() => {
     if(isProcessed == false) {
